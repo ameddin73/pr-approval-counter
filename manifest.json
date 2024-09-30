@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "GitHub PR Approval Counter",
-  "version": "1.0",
-  "description": "Displays the number of PRs you've approved for a repo",
+  "version": "0.0.1",
+  "description": "Displays the number of PRs you've approved for a repo out of the previous n PRs.",
   "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "index.html"
@@ -10,5 +10,11 @@
   "permissions": ["cookies", "tabs", "storage", "scripting"],
   "background": {
     "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
 }
